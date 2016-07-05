@@ -1,0 +1,76 @@
+body {
+  font-family: "Helvetica Neue", Sans-serif;
+  padding: 2rem;
+  margin: 0; }
+
+.center {
+  text-align: center; }
+
+.weather-content a {
+  color: #50AFE4;
+  text-decoration: none; }
+  .weather-content a:hover {
+    color: #0098DB; }
+
+#location {
+  font-size: 1.75rem;
+  line-height: 75%;
+  margin-bottom: 0.25rem; }
+  #location span {
+    font-size: 0.5em; }
+
+#temp {
+  margin-left: 0.35em; }
+
+#temp, i {
+  font-size: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 0.25rem; }
+
+i {
+  margin-top: 1rem; }
+
+span.units {
+  color: #50AFE4;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-left: 0.15em; }
+  span.units:hover {
+    cursor: pointer;
+    color: #0098DB; }
+
+#weather {
+  font-size: 1.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem; }
+
+footer p {
+  margin-bottom: 0;
+  margin-top: 0.35rem;
+  font-size: 0.65rem; }
+
+@media screen and (min-width: 415px) {
+  #location {
+    font-size: 3rem;
+    margin-bottom: 0.75rem; }
+
+  #temp {
+    margin-left: 0.45em; }
+
+  #temp, i {
+    font-size: 5rem;
+    margin-bottom: 0.75rem; }
+
+  span.units {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 0.15em; }
+
+  #weather {
+    font-size: 2rem;
+    margin-top: 0.75rem; }
+
+  footer p {
+    font-size: 0.75rem; } }
+
+/*# sourceMappingURL=main.css.map */
